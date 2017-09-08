@@ -460,7 +460,7 @@ if __name__ == '__main__':
 	articles = AM.loadArticles(articlesFilename)
 	
 	#PCA
-	#pca_articles(articles, 'random')
+	pca_articles(articles, 'random')
 
 	
 	for i in range(len(articles)):
