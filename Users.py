@@ -17,7 +17,7 @@ class UserManager():
 		self.userNum = userNum
 		self.UserGroups = UserGroups
 		self.argv = argv
-		self.signature = "A-"+"+P"+"+TF-"+self.thetaFunc.__name__
+		self.signature = "A-"+"+PA"+"+TF-"+self.thetaFunc.__name__
 
 	def saveUsers(self, users, filename, force = False):
 		fileOverWriteWarning(filename, force)
